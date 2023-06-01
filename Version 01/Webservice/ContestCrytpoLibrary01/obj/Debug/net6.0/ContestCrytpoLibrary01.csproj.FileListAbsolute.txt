@@ -1,0 +1,12 @@
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\Webservice\ContestCrytpoLibrary01\bin\Debug\net6.0\ContestCrytpoLibrary01.deps.json
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\Webservice\ContestCrytpoLibrary01\bin\Debug\net6.0\ContestCrytpoLibrary01.dll
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\Webservice\ContestCrytpoLibrary01\bin\Debug\net6.0\ContestCrytpoLibrary01.pdb
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\Webservice\ContestCrytpoLibrary01\obj\Debug\net6.0\ContestCrytpoLibrary01.csproj.AssemblyReference.cache
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\Webservice\ContestCrytpoLibrary01\obj\Debug\net6.0\ContestCrytpoLibrary01.GeneratedMSBuildEditorConfig.editorconfig
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\Webservice\ContestCrytpoLibrary01\obj\Debug\net6.0\ContestCrytpoLibrary01.AssemblyInfoInputs.cache
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\Webservice\ContestCrytpoLibrary01\obj\Debug\net6.0\ContestCrytpoLibrary01.AssemblyInfo.cs
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\Webservice\ContestCrytpoLibrary01\obj\Debug\net6.0\ContestCrytpoLibrary01.csproj.CoreCompileInputs.cache
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\Webservice\ContestCrytpoLibrary01\obj\Debug\net6.0\ContestCrytpoLibrary01.dll
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\Webservice\ContestCrytpoLibrary01\obj\Debug\net6.0\refint\ContestCrytpoLibrary01.dll
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\Webservice\ContestCrytpoLibrary01\obj\Debug\net6.0\ContestCrytpoLibrary01.pdb
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\Webservice\ContestCrytpoLibrary01\obj\Debug\net6.0\ref\ContestCrytpoLibrary01.dll
