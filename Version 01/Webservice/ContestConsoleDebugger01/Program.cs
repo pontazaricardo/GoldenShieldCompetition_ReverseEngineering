@@ -26,6 +26,18 @@ namespace ContestConsoleDebugger01
 				result = stringWriter.ToString();
 			}
 
+			//XML deserializer
+			try
+			{
+				using (TextReader reader = new StringReader(result))
+				{
+					ExampleList listObtained  = (ExampleList)xmlserializer.Deserialize(reader);
+				}
+			}
+			catch (Exception ex)
+			{
+			}
+
 
 		}
 
@@ -41,8 +53,8 @@ namespace ContestConsoleDebugger01
 
 			PrimesContainer primes = PrimesContainer.Instance;
 
-			ExampleList exampleList = new ExampleList(new List<Example>() { 
-				new Example(1,2,true), 
+			ExampleList exampleList = new ExampleList(new List<Example>() {
+				new Example(1,2,true),
 				new Example(2,3,false)
 			});
 
@@ -54,7 +66,7 @@ namespace ContestConsoleDebugger01
 			using (var writer = XmlWriter.Create(stringWriter))
 			{
 				xmlserializer.Serialize(writer, exampleList);
-				result= stringWriter.ToString();
+				result = stringWriter.ToString();
 			}
 
 
