@@ -19,6 +19,8 @@ namespace ContestCrytpoLibrary01
 		public int totalAmountOfPrimes = 0;
 		public int totalAmountOfExamplesInstances = 20;
 
+		
+
 		private ContestSingleton() {
 
 			#region Constructors

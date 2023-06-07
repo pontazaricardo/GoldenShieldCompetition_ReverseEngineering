@@ -12,6 +12,10 @@ namespace ContestCrytpoLibrary01
 		public string challengeID;
 		public bool passedTests;
 
+		
+
+
+
 		public TeamData(string ID) 
 		{ 
 			this.ID = ID;
