@@ -15,9 +15,9 @@ namespace ContestCrytpoLibrary01
 		{
 			answers = new List<Answer>();
 
-			foreach (Answer example in answersToUse)
+			foreach (Answer answer in answersToUse)
 			{
-				answers.Add(example);
+				answers.Add(answer);
 			}
 		}
 
@@ -28,12 +28,32 @@ namespace ContestCrytpoLibrary01
 
 		#region Constructor based on ExampleList
 
+		public CorrectAnswers(ExampleList exampleListToUse)
+		{
+			answers = new List<Answer>();
 
+			List<Answer> answersFromExamples = ConvertExamplesToAnswers(exampleListToUse.examples);
+
+			foreach (Answer answer in answersFromExamples)
+			{
+				answers.Add(answer);
+			}
+		}
 
 
 		#endregion
 
+		public List<Answer> ConvertExamplesToAnswers(List<Example> examplesToUse)
+		{
+			List<Answer> answersToReturn = new List<Answer>();
 
+			foreach (Example example in examplesToUse)
+			{
+				answersToReturn.Add(new Answer(example.parameter01, example.parameter02, example.result));
+			}
+
+			return answersToReturn;
+		}
 
 
 

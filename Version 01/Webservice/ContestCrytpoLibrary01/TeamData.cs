@@ -12,6 +12,7 @@ namespace ContestCrytpoLibrary01
 		public string challengeID;
 		public bool passedTests;
 
+		public CorrectAnswers expectedAnswers;
 		
 
 
@@ -20,7 +21,22 @@ namespace ContestCrytpoLibrary01
 		{ 
 			this.ID = ID;
 			passedTests = false;
+
+			expectedAnswers = new CorrectAnswers();
 		}
+
+		public void setExpectedAnswers(CorrectAnswers correctAnswers) 
+		{
+			expectedAnswers.answers = new List<Answer>();
+
+			foreach(Answer answer in correctAnswers.answers)
+			{
+				expectedAnswers.answers.Add(answer);
+			}
+		}
+
+		public bool 
+
 
 
 	}

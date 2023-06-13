@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-
+ 
 namespace ContestCrytpoLibrary01
 {
 	public sealed class ContestSingleton
@@ -18,8 +18,6 @@ namespace ContestCrytpoLibrary01
 		public Dictionary<string, TeamData> teamsData;
 		public int totalAmountOfPrimes = 0;
 		public int totalAmountOfExamplesInstances = 20;
-
-		
 
 		private ContestSingleton() {
 
