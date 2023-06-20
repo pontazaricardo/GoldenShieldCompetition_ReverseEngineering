@@ -77,8 +77,8 @@ namespace ContestCrytpoLibrary01
 
 		public Answer()
 		{
-			parameter01 = -1;
-			parameter02 = -1;
+			parameter01 = -2;
+			parameter02 = -2;
 			result = false;
 		}
 	}

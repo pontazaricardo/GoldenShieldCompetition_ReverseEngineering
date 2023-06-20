@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 
  
@@ -6649,6 +6650,68 @@ namespace ContestCrytpoLibrary01
 			totalAmountOfPrimes = primeNumbers.Count;
 
 		}
+
+
+		public ChallengeResponseList parseObtainedResponseXML(string obtainedResponseXML, out bool parsingResult)
+		{
+			ChallengeResponseList obtainedResponse = new ChallengeResponseList();
+			parsingResult = false;
+
+			var xmlserializer = new XmlSerializer(typeof(ChallengeResponseList));
+
+			try
+			{
+				using (TextReader reader = new StringReader(obtainedResponseXML))
+				{
+					obtainedResponse = (ChallengeResponseList)xmlserializer.Deserialize(reader);
+				}
+				parsingResult = true;
+			}
+			catch (Exception ex)
+			{
+				//throw new Exception("Invalid Response XML received. Parsing process failed.");
+
+				//Instead of throwing exception, we return a bool value.
+				parsingResult = false;
+			}
+
+			return obtainedResponse;
+		}
+
+		public bool CheckObtainedChallengeResponse(string teamID, ChallengeResponseList obtainedResponse) 
+		{
+			bool result = false;
+
+			if (!teamsData.ContainsKey(teamID))
+				return result;
+
+			CorrectAnswers expectedAnswers = teamsData[teamID].expectedAnswers;
+
+			if (expectedAnswers.answers.Count() == 0)
+				return result;
+
+			if (obtainedResponse.responses.Count() != expectedAnswers.answers.Count())
+				return result;
+
+			result = true;
+
+			for(int i = 0; i < obtainedResponse.responses.Count(); i++)
+			{
+				Answer pivotAnswer = expectedAnswers.answers[i];
+				Response pivotResponse = obtainedResponse.responses[i];
+
+				if(!((pivotAnswer.parameter01 == pivotResponse.parameter01) && (pivotAnswer.parameter02 == pivotResponse.parameter02) && (pivotAnswer.result == pivotResponse.result)))
+				{
+					result = false;
+					break;
+				}
+			}
+
+			return result;
+		}
+
+
+		
 
 
 		/// <summary>

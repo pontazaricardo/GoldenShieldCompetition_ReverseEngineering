@@ -41,6 +41,26 @@ namespace ContestConsoleDebugger01
 
 		}
 
+		public string GetExamples()
+		{
+			ContestSingleton singleton = ContestSingleton.Instance;
+			string result = "";
+
+			ExampleList exampleList = new ExampleList(singleton.generateOracleExampleList(20));
+
+			var xmlserializer = new XmlSerializer(typeof(ExampleList));
+			var stringWriter = new StringWriter();
+
+			using (var writer = XmlWriter.Create(stringWriter))
+			{
+				xmlserializer.Serialize(writer, exampleList);
+				result = stringWriter.ToString();
+			}
+
+			return result;
+		}
+
+
 
 		static void Main02(string[] args)
 		{

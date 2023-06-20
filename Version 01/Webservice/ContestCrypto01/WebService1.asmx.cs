@@ -1,8 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Services;
+using System.Xml.Serialization;
+using System.Xml;
+
+using ContestCrytpoLibrary01;
+
 
 namespace ContestCrypto01
 {
@@ -31,6 +37,28 @@ namespace ContestCrypto01
 
 			return a + b;
 		}
+
+
+		public string GetExamples()
+		{
+			ContestSingleton singleton = ContestSingleton.Instance;
+			string result = "";
+
+			ExampleList exampleList = new ExampleList(singleton.generateOracleExampleList(20));
+
+			var xmlserializer = new XmlSerializer(typeof(ExampleList));
+			var stringWriter = new StringWriter();
+
+			using (var writer = XmlWriter.Create(stringWriter))
+			{
+				xmlserializer.Serialize(writer, exampleList);
+				result = stringWriter.ToString();
+			}
+
+			return result;
+		}
+
+
 
 		public int multiplication(int a, int b)
 		{
