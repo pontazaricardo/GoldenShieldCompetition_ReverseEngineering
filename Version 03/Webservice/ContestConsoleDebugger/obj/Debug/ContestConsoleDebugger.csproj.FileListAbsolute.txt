@@ -1,0 +1,11 @@
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestConsoleDebugger\bin\Debug\ContestConsoleDebugger.exe.config
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestConsoleDebugger\bin\Debug\ContestConsoleDebugger.exe
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestConsoleDebugger\bin\Debug\ContestConsoleDebugger.pdb
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestConsoleDebugger\bin\Debug\ContestCryptoLibrary.dll
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestConsoleDebugger\bin\Debug\ContestCryptoLibrary.pdb
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestConsoleDebugger\obj\Debug\ContestConsoleDebugger.csproj.AssemblyReference.cache
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestConsoleDebugger\obj\Debug\ContestConsoleDebugger.csproj.SuggestedBindingRedirects.cache
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestConsoleDebugger\obj\Debug\ContestConsoleDebugger.csproj.CoreCompileInputs.cache
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestConsoleDebugger\obj\Debug\ContestConsoleDebugger.csproj.CopyComplete
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestConsoleDebugger\obj\Debug\ContestConsoleDebugger.exe
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestConsoleDebugger\obj\Debug\ContestConsoleDebugger.pdb

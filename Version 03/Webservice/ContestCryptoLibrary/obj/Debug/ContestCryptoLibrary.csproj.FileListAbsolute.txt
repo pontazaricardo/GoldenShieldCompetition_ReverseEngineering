@@ -1,0 +1,6 @@
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestCryptoLibrary\bin\Debug\ContestCryptoLibrary.dll
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestCryptoLibrary\bin\Debug\ContestCryptoLibrary.pdb
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestCryptoLibrary\obj\Debug\ContestCryptoLibrary.csproj.AssemblyReference.cache
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestCryptoLibrary\obj\Debug\ContestCryptoLibrary.csproj.CoreCompileInputs.cache
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestCryptoLibrary\obj\Debug\ContestCryptoLibrary.dll
+C:\OneDrive\OneDrive - Kazuricorp\Jobs\02. NICS\2023-03-31 - Contest\Tests\Crypto\03\Webservice\ContestCryptoLibrary\obj\Debug\ContestCryptoLibrary.pdb

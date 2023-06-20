@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestCryptoWS", "ContestCryptoWS.csproj", "{571CB8CA-855F-4CF7-862A-81D0AD3CDA53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestCryptoLibrary", "..\ContestCryptoLibrary\ContestCryptoLibrary.csproj", "{D5669BFC-CAE1-4975-A071-4A59A6AF35AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestConsoleDebugger", "..\ContestConsoleDebugger\ContestConsoleDebugger.csproj", "{69B1363E-AAC0-496D-9F79-061BFAC67448}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{571CB8CA-855F-4CF7-862A-81D0AD3CDA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571CB8CA-855F-4CF7-862A-81D0AD3CDA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571CB8CA-855F-4CF7-862A-81D0AD3CDA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571CB8CA-855F-4CF7-862A-81D0AD3CDA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5669BFC-CAE1-4975-A071-4A59A6AF35AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5669BFC-CAE1-4975-A071-4A59A6AF35AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5669BFC-CAE1-4975-A071-4A59A6AF35AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5669BFC-CAE1-4975-A071-4A59A6AF35AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B1363E-AAC0-496D-9F79-061BFAC67448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B1363E-AAC0-496D-9F79-061BFAC67448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B1363E-AAC0-496D-9F79-061BFAC67448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B1363E-AAC0-496D-9F79-061BFAC67448}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {680F8301-83C4-456E-8DF8-35811C950A4E}
+	EndGlobalSection
+EndGlobal
